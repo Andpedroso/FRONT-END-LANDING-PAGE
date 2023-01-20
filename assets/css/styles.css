@@ -152,7 +152,7 @@
     transform: rotate(-90deg);
     border: 0.1rem solid var(--primary-color);
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
